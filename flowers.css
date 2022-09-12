@@ -1,0 +1,123 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    box-shadow: 1px 3px 13px rgba(53, 2, 53, 1);
+    background: linear-gradient(lightpink, beige);
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+.navbar-menu li{
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.navbar-menu li a{
+    display: inline-block;
+    color:rgba(53, 2, 53);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 100%;
+    padding: 25px;
+}
+.navbar-menu li a:hover {
+    color:rgb(138, 197, 119);
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+
+}
+.navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navbar-brand{
+    font-weight: 1000;
+    font-size:22px;
+    text-decoration: none;
+    color: rgba(53, 2, 53);
+    text-align: center;
+    text-shadow:rgb(10, 215, 24) 1px 1px 3px;
+    padding: 12px;
+    border-style: double;
+    border-color: greenyellow;
+}
+.navbar:before{
+    content: " ";
+    display: block;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+
+}
+
+body{
+    background: rgb(252, 252, 209);
+    background-image: url(https://dekornik.com/wp-content/uploads/2018/07/tapeta_kasiags-1.jpg);
+    background-size: 500px;
+}
+
+.head{
+    background:rgb(209, 248, 209);
+    box-shadow: 0px 0px 13px;
+    padding: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.firstpic{
+    width:520px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 1px 13px;
+}
+body{
+    margin: 0px
+}
+.languages {
+    background: rgba(0, 128, 0, 0.851);
+    margin: 0px;
+    padding: 15px;
+    padding-bottom: 60px;
+    text-align: center;
+
+}
+.languages li{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+.languages a{
+    display: block;
+    padding: 3px 15px;
+    color: rgba(53, 2, 53);
+    text-decoration: none;
+    font-size: 17px;
+}
+.languages a:hover{
+    color: beige;
+    opacity: 0.8;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.more{
+    page-break-after: always;
+}
